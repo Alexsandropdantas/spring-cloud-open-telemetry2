@@ -1,7 +1,12 @@
 package com.baeldung.opentelemetry.exception;
 
 public class PriceNotFoundException extends RuntimeException {
-    public PriceNotFoundException(String priceNotFound) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public PriceNotFoundException(String priceNotFound) {
         super(priceNotFound);
     }
 }
